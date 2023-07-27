@@ -1,0 +1,89 @@
+@import"_variables";
+
+button {
+    width: 100%;
+    // height: 100%;
+    margin: 0;
+    color:$light;
+    box-shadow: $shadow-inset;
+    @extend %init_item;
+    @extend %flex_center;
+    @include radius(10);
+    @include pdh(4);
+    @include pdv(2);
+}
+
+.btn{
+    @include pdh(4);
+    @include pdv(2);
+    color:$light;
+    box-shadow: $shadow-inset;
+    @include radius(10);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.btn_primary{
+	background-color:$fourth;
+    &:hover {
+        background-color: $third;
+    }
+    &:active {
+        background-color: $third;
+    }
+}
+
+.btn_second{
+    background-color:$third ;
+    &:hover {
+        background-color: $fourth;
+    }
+    &:active {
+        background-color: $fourth;
+    }
+}
+
+.btn_third{
+    background-color:$light1 ;
+    color:$primary ;
+}
+
+.point{
+    position: fixed;
+    bottom:5%;
+    right:5%;
+    z-index: 999;
+    color:$fourth;
+    font-size: 3em;
+    width: 80px;
+    height: 80px;
+    background-color: $fourth;
+    @include radius(100);
+    box-shadow: $shadow;
+    
+    &::before{
+        content: "";
+        border: 20px solid ;
+        border-color:transparent transparent $light  ;
+        width: 30px;
+        height: 30px;
+        display: block;
+        margin-left: .35em;
+    }
+
+    &::after{
+        content: "TOP";
+        color:$light;
+        font-size: .4em;
+        margin-left: .7em;
+        display: block;
+    }
+
+}
+
+
+
+
