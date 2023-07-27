@@ -1,0 +1,95 @@
+@import"_variables";
+
+#SkylineDownload{
+  .main_container{
+    background: url(../imges_all/page_bgm_right.png) no-repeat;
+    background-position:100% 60%;
+  }
+}
+
+
+.download_wrap {
+  display: flex;
+  justify-content:space-around;
+  width: 100%;
+  margin-left: spacecount(2);
+  #downloadltemone_view{
+    margin-bottom: spacecount(10);
+  }
+}
+
+//downloadItemone
+.content_item{
+  .content_title {
+    color:$primary;
+    margin-bottom: spacecount(5);
+  }
+}
+
+.content_haeder{
+  box-shadow:$shadow2;
+  .line_style {
+    @include radius_corner;
+  }
+}
+
+
+.content_bottom{
+  background-color:$primary;
+  @include pd(5);
+  @include radius_corner(0,0,10,0);
+  .caption_title p{
+    color:$light;
+    font-weight: 900;
+  }
+  ul {
+    width: 80%;
+    margin-left: spacecount(6)
+  }
+  .dowload_link_block a{
+    @include pdv(2);
+    display: flex;
+    justify-content:space-between;
+    &::after{
+      content: "\21D3";
+      background-color:$fourth;
+      text-align: center;
+      @include pd(1);
+      @include pdh(3);
+      box-shadow: $shadow;
+      @include radius(20);
+    }
+    &:hover,&:active,&:focus{
+      &::after{
+        background-color:$thrid;
+        color: $light;
+      }
+    }
+  }
+}
+
+
+
+// .caption_block {
+//   .caption_circle {
+//     left:0;
+//     width:30px;
+//     height:30px;
+//     background-color:$fourth;
+//   }
+//   .caption_title {
+//     z-index:2;
+//   }
+//   .caption_title p{
+//     color: $light;
+//     z-index:2;
+//   }
+// }
+
+@media screen and (max-width:375px){
+  .content_bottom{
+    ul {
+      margin-left: spacecount(2)
+    }
+  }
+}

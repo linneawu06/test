@@ -1,0 +1,153 @@
+@import"_variables";
+
+.space_v{
+  @include pdv(60);
+}
+  
+.header_container {
+  background: $second;
+  position: relative;
+  .error_bgm_img {
+    position: absolute;
+    right:0;
+    margin-right: -4em;
+  }
+  .error_img_wrap{
+    position: relative;
+    display: flex;
+    margin-bottom: spacecount(5);
+    .error_img{
+      width: 100%;
+      z-index: 1;
+    }
+    .error_img_front{
+      position: absolute;
+      z-index: 1;
+      width: 20%;
+      top:-8%;
+      left: -5%;
+    }
+    .error_img_back{
+      position: absolute;
+      margin-top: -3.1em;
+      margin-left: -1.4em;
+      width: 20%;
+      top:-6%;
+      left: -2%;
+    }
+  }
+  .link_wrap {
+    margin-bottom: spacecount(10);
+    padding-left:spacecount(5);
+    position: relative;
+    .error_icon_img {
+      position: absolute;
+      top:-40%;
+      right:0%;
+    }
+    h3,h4,p{
+      color:$light;
+      text-align: center;
+    }
+    h3{
+      margin-bottom: spacecount(1);
+      font-size: 4.2em;
+    }
+    h4{
+      margin-bottom: spacecount(5);
+      font-size: 1.3em;
+    }
+    p{
+      font-size: 1.8em;
+    }
+  }
+}
+
+//media
+@media screen and (max-width:1140px){
+  .header_container{
+    .link_wrap {
+      padding-left:spacecount(5);
+      h3{
+        font-size: 3.8rem;
+      }
+      h4{
+        font-size: 1.2rem;
+      }
+    } 
+  }
+}
+
+@media screen and (max-width:768px){
+  .space_v{
+    @include pdv(40);
+  }
+  .header_container{
+    .link_wrap {
+      padding-left:spacecount(5);
+      h3{
+        font-size: 3rem;
+        letter-spacing:0.05em;
+      }
+      h4{
+        font-size: 1.2rem;
+      }
+      .error_icon_img {
+        display: none;
+      }
+    } 
+  }
+}
+
+@media screen and (max-width:569px){
+  .header_container{
+    .error_bgm_img{
+      width: 80%;
+    }
+    .link_wrap {
+      h3{
+        font-size: 2.5rem;
+      }
+      h4{
+        font-size: 0.8rem;
+      }
+    } 
+  }
+}
+
+@media screen and (max-width:375px){
+  .header_container{
+    .link_wrap {
+      h3{
+        font-size: 2.2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:280px){
+  .space_v{
+    @include pdv(30);
+  }
+  .space_s_h{
+    @include pdh(3);
+  }
+  .header_container {
+    .error_img_wrap {
+      .error_img_front,.error_img_back{
+        width: 30%;
+      }
+      .error_img_front{
+        top:-25%;
+        left:0;
+      }
+      .error_img_back{
+        top:0%;
+        left:10%;
+      }
+    }
+    .home_icon{
+      display: none;
+    }
+  }
+}

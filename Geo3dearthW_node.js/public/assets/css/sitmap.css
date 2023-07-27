@@ -1,0 +1,135 @@
+.caption_block .caption_title, .caption_block .content_caption {
+  color: #373737;
+}
+
+.content_wrap {
+  padding-bottom: 4.2em;
+}
+.content_wrap .content_block .content_item.hide .item_head .change_icon::after {
+  width: 2px;
+}
+.content_wrap .content_block .content_item.hide .item_body {
+  display: none;
+}
+.content_wrap .content_block .content_item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.4em;
+}
+.content_wrap .content_block .content_item .item_head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  padding: 0.56em;
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+}
+.content_wrap .content_block .content_item .item_head .change_icon {
+  color: #F6A745;
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 2%;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+.content_wrap .content_block .content_item .item_head .change_icon::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.content_wrap .content_block .content_item .item_head .change_icon::after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 9px;
+  width: 0px;
+  height: 10px;
+  background: currentColor;
+}
+.content_wrap .content_block .content_item .item_head p {
+  font-weight: 900;
+}
+.content_wrap .content_block .content_item .item_head .item_title_block {
+  display: flex;
+  align-items: center;
+}
+.content_wrap .content_block .content_item .item_head .item_title_block .content_label {
+  color: #373737;
+}
+.content_wrap .content_block .content_item .item_body {
+  background-color: #F0F0F0;
+  padding: 1.4em;
+  display: block;
+}
+.content_wrap .content_block .content_item .item_body a {
+  padding-top: 0.56em;
+  padding-bottom: 0.56em;
+  color: #373737;
+}
+.content_wrap .content_block .content_item .item_body a:hover {
+  color: #F6A745;
+}
+.content_wrap .feature_img_link {
+  width: 100%;
+}
+
+.feature_img_block {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  transition: all 0.3s 0s ease-in;
+  overflow: hidden;
+  flex-direction: row;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-image: url(../imges/sitmap/sitmap1.png);
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.feature_img_block::after {
+  z-index: 2;
+  content: "";
+  background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, rgba(42, 45, 49, 0.2) 46.88%, #3B424B 100%);
+  width: inherit;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in;
+}
+.feature_img_block:hover::after {
+  opacity: 0%;
+}
+
+@media screen and (max-width: 912px) and (min-width: 768px) {
+  .feature_img_block {
+    background-position: 0px -150px;
+  }
+}
+@media screen and (max-width: 569px) {
+  .style2_wrap .caption_block h2 {
+    letter-spacing: 0.01em;
+  }
+}
+@media screen and (max-width: 375px) {
+  .feature_img_block {
+    background-position: -80px 0px;
+  }
+}/*# sourceMappingURL=sitmap.css.map */
