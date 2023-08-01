@@ -508,7 +508,9 @@
 			position: relative;
 			margin-top: -1em;
 			.content_text{
-				margin-bottom: spacecount(20);
+        height: 100%;
+				margin-top: spacecount(2);
+        margin-bottom: spacecount(8);
 			}
 			.skyline_cb_icon{
 				position: absolute;
@@ -516,7 +518,7 @@
 				bottom: -10%;
 			}
 			.skyline_cb_img {
-				transform: scale(1.4);
+				transform: scale(1.2);
 			}
 		}	
 	}
@@ -1168,7 +1170,14 @@
     }
   }
 
-
+  .products_content{
+    .products_introduce:first-child {
+      .content_text_wrap .content_text{
+        height: auto;
+      }
+    }
+  }
+ 
 }
 
 
@@ -1297,6 +1306,7 @@
       .content_title{
         text-align: center;
       }
+
       .content_text_wrap  .skyline_cb_img {
         transform: scale(1);
       }  

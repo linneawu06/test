@@ -431,7 +431,9 @@
   margin-top: -1em;
 }
 .products_content .products_introduce:first-child .content_text_wrap .content_text {
-  margin-bottom: 5.6em;
+  height: 100%;
+  margin-top: 0.56em;
+  margin-bottom: 2.24em;
 }
 .products_content .products_introduce:first-child .content_text_wrap .skyline_cb_icon {
   position: absolute;
@@ -439,7 +441,7 @@
   bottom: -10%;
 }
 .products_content .products_introduce:first-child .content_text_wrap .skyline_cb_img {
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 .products_content .products_introduce2 {
   background-color: #003B80;
@@ -978,6 +980,9 @@
     padding-right: 1.4em;
     padding-left: 1.4em;
     margin-top: 4em;
+  }
+  .products_content .products_introduce:first-child .content_text_wrap .content_text {
+    height: auto;
   }
 }
 @media screen and (max-width: 912px) and (min-width: 700px) {
