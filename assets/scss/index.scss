@@ -8,7 +8,9 @@
   background: url("../imges/home/home-bg.png") no-repeat ;
   @include pd(40);
   .feature_img{
-    height: 20%;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
   }
   .caption_content{
     word-break: break-all;
@@ -61,7 +63,7 @@
       }
       .item_img{
         height: 100%;
-        object-fit: contain;
+        width: 100%;
         padding-bottom: spacecount(15);
         display: inline-block;
       }

@@ -4,7 +4,9 @@
   padding: 11.2em;
 }
 .header_container .feature_img {
-  height: 20%;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
 }
 .header_container .caption_content {
   word-break: break-all;
@@ -53,7 +55,9 @@
 }
 .item_container .item_wrap .item_area .item_img {
   height: 100%;
+  width: 100%;
   padding-bottom: 4.2em;
+  display: inline-block;
 }
 .item_container .item_wrap .item_area .item_block {
   height: 280px;
