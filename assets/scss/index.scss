@@ -1,7 +1,9 @@
 @import"_variables";
 
 
-
+#index_view{
+  overflow-y: hidden;
+}
 
 .header_container {
   box-shadow:$shadow-inset;
