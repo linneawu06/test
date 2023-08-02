@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.products {
+  overflow-y: hidden;
+}
+
 .header_wrap {
   background: url(../imges/products/products_top.png) no-repeat;
   background-size: cover;

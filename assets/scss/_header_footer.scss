@@ -110,6 +110,7 @@
 
 
 footer {
+  overflow:hidden;
   .footer_top {
     @include pd(3);
     @include pdh(7);

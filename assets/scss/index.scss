@@ -1,9 +1,7 @@
 @import"_variables";
 
 
-#index_view{
-  overflow-y: hidden;
-}
+
 
 .header_container {
   box-shadow:$shadow-inset;
@@ -23,6 +21,10 @@
       color: $light;
     }
   }
+}
+
+.home {
+  overflow-y: hidden;
 }
 
 .content_block{

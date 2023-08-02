@@ -462,6 +462,9 @@ button {
   left: -100%;
 }
 
+footer {
+  overflow: hidden;
+}
 footer .footer_top {
   padding: 0.84em;
   padding-right: 1.96em;

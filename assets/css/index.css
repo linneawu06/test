@@ -1,7 +1,3 @@
-#index_view {
-  overflow-y: hidden;
-}
-
 .header_container {
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   background: url("../imges/home/home-bg.png") no-repeat;
@@ -20,6 +16,10 @@
 }
 .header_container .caption1_block h2, .header_container .caption1_block p {
   color: #fff;
+}
+
+.home {
+  overflow-y: hidden;
 }
 
 .content_block {
