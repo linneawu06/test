@@ -62,8 +62,8 @@
       .item_img{
         height: 100%;
         object-fit: contain;
-        width: 100%;
         padding-bottom: spacecount(15);
+        display: inline-block;
       }
       .item_block {
 
