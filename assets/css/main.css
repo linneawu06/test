@@ -305,7 +305,7 @@ button {
   position: fixed;
   bottom: 5%;
   right: 5%;
-  z-index: 999;
+  z-index: 1;
   color: #1383BE;
   font-size: 3em;
   width: 80px;
@@ -461,7 +461,8 @@ button {
   color: #F6A745;
 }
 .header nav .toggle-en {
-  font-size: 0.2em;
+  font-size: 0.5em;
+  letter-spacing: 0.2em;
 }
 
 footer {
