@@ -460,6 +460,9 @@ button {
   text-decoration: none;
   color: #F6A745;
 }
+.header nav .toggle-en {
+  font-size: 0.2em;
+}
 
 footer {
   overflow: hidden;
