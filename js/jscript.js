@@ -1,3 +1,4 @@
+(function(){
 let menuIcon = document.querySelector(".menu_moblie_block");
 let menuBg = document.querySelector(".modal-backdrop");
 let menuBlock = document.querySelector(".menu_web_block");
@@ -18,5 +19,4 @@ let btnClose =document.querySelector(".btn_close")
 btnClose.addEventListener("click",function(){
     menuBlock.style.display = "none";
 })
-
-
+})();
