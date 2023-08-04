@@ -155,9 +155,9 @@ footer {
           top: 16px;
       } 
       #twcad1 {
-        left: 70px;
+        left: 69px;
         top: 34px;
-        width: 70px;
+        width: 65px;
         height: 11px;
         line-height: 11px;
         font-size: 11px;
@@ -235,6 +235,10 @@ footer {
 }
 
 @media screen and (max-width:569px){
+  #twcad1 {
+    width: 70px;
+  }
+
   .loge-1{
     width: 100%;
   }
