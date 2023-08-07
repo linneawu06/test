@@ -263,7 +263,7 @@
 }
 @media screen and (max-width: 414px) {
   .item_container .item_wrap .item_area .item_block {
-    height: 620px;
+    height: 350px;
   }
   .item_container .item_wrap .item_area .item_block .line_style .item_icon {
     width: 20%;
