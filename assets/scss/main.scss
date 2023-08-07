@@ -49,10 +49,12 @@ a {
 
 li{
 	@extend %init_item;
+	background-color: $transparent;
 }
 
 p {
 	@include font(1.1);
+	word-break: break-all; 
 }
 
 img {
@@ -61,22 +63,27 @@ img {
 
 h1 {
 	@include font(2);
+	word-break: break-all; 
 }
 
 h2 {
 	@include font(1.6);
+	word-break: break-all; 
 }
 
 h3 {
 	@include font(1.6);
+	word-break: break-all; 
 }
 
 h4 {
 	@include font(1.25);
+	word-break: break-all; 
 }
 
 h5 {
 	@include font(1.1);
+	word-break: break-all; 
 }
 
 span{
@@ -89,6 +96,13 @@ span{
 	@include radius(50);
 }
 
+
+ .item_img {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 4.2em;
+    display: inline-block;
+}
 
 .btn_icon{
 	padding-left: spacecount(15);
@@ -668,7 +682,7 @@ to {opacity: 1}
 
 @media screen and (max-width:768px){
 	p,a {
-		@include font(1.35);
+		@include font(1);
 	}
 	
 	h1 {
@@ -692,7 +706,7 @@ to {opacity: 1}
 	}
 
 	span{
-		@include font(1.2)
+		@include font(1)
 	}
 	.caption_block {
 		.content_caption::before {

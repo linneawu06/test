@@ -721,11 +721,16 @@ a:hover, a:focus, a:active {
   color: #F6A745;
 }
 
+li {
+  background-color: rgba(0, 0, 0, 0);
+}
+
 p {
   line-height: 1.65;
   font-size: 1.1rem;
   font-weight: 352;
   letter-spacing: 0.048em;
+  word-break: break-all;
 }
 
 img {
@@ -737,6 +742,7 @@ h1 {
   font-size: 2rem;
   font-weight: 1000;
   letter-spacing: 0.12em;
+  word-break: break-all;
 }
 
 h2 {
@@ -744,6 +750,7 @@ h2 {
   font-size: 1.6rem;
   font-weight: 800;
   letter-spacing: 0.12em;
+  word-break: break-all;
 }
 
 h3 {
@@ -751,6 +758,7 @@ h3 {
   font-size: 1.6rem;
   font-weight: 800;
   letter-spacing: 0.12em;
+  word-break: break-all;
 }
 
 h4 {
@@ -758,6 +766,7 @@ h4 {
   font-size: 1.25rem;
   font-weight: 575;
   letter-spacing: 0.048em;
+  word-break: break-all;
 }
 
 h5 {
@@ -765,6 +774,7 @@ h5 {
   font-size: 1.1rem;
   font-weight: 352;
   letter-spacing: 0.048em;
+  word-break: break-all;
 }
 
 span {
@@ -778,6 +788,13 @@ span {
   max-width: 40px;
   padding: 0.28em;
   border-radius: 28em;
+}
+
+.item_img {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 4.2em;
+  display: inline-block;
 }
 
 .btn_icon {
@@ -1249,10 +1266,10 @@ span {
 }
 @media screen and (max-width: 768px) {
   p, a {
-    line-height: 2.025;
-    font-size: 1.35rem;
-    font-weight: 621;
-    letter-spacing: 0.048em;
+    line-height: 1.6;
+    font-size: 1rem;
+    font-weight: 320;
+    letter-spacing: 0.08em;
   }
   h1 {
     line-height: 1.8;
@@ -1285,10 +1302,10 @@ span {
     letter-spacing: 0.048em;
   }
   span {
-    line-height: 1.8;
-    font-size: 1.2rem;
-    font-weight: 552;
-    letter-spacing: 0.048em;
+    line-height: 1.6;
+    font-size: 1rem;
+    font-weight: 320;
+    letter-spacing: 0.08em;
   }
   .caption_block .content_caption::before {
     width: 50px;
