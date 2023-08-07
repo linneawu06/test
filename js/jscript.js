@@ -20,3 +20,7 @@ btnClose.addEventListener("click",function(){
     menuBlock.style.display = "none";
 })
 })();
+
+
+
+//Ajax
