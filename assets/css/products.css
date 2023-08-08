@@ -170,9 +170,6 @@
   border-left: 0.5em solid #fff;
   padding-left: 1em;
 }
-.protfolio_container .protfolio_img_wrap .protfolio_img_block .img_block .terraexplorerapp_img {
-  height: 250px;
-}
 .protfolio_container .protfolio_img_wrap .changeicon_wrap {
   transform: scale(0.8);
   transform-origin: 0 0;
@@ -1015,6 +1012,9 @@
   .products_function .skyline_function_block .skyline_function_item .item_title {
     font-size: 0.8em;
     top: 40%;
+  }
+  .terraexplorerapp_img {
+    height: 250px;
   }
 }
 @media screen and (max-width: 569px) {
