@@ -193,7 +193,7 @@
   margin-bottom: 2em;
 }
 .function_wrap .content_body .img_block {
-  height: 350px;
+  height: 380px;
   margin: 0 auto;
   margin-bottom: 1.4em;
 }
@@ -1207,12 +1207,14 @@
     margin-right: 0;
   }
 }
+@media screen and (max-width: 320px) {
+  .function_wrap .content_body .img_block {
+    height: 180px;
+  }
+}
 @media screen and (max-width: 280px) {
   #citybuilder_view .function_wrap .img_block, #html5webl_view .function_wrap .img_block {
     height: 120px;
-  }
-  .function_wrap .content_body .img_block {
-    height: 150px;
   }
   .accordion_body .accordion_control .accordion_control_item .accordion_control_text {
     line-height: 1.5;

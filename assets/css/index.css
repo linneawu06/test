@@ -107,7 +107,7 @@
   width: 20%;
   position: absolute;
   right: 0%;
-  margin-top: -9em;
+  margin-top: -8.5em;
 }
 .skylineinf_container .style_wrap .caption_block h2, .skylineinf_container .style_wrap .caption_block p {
   color: #fff;
@@ -168,6 +168,10 @@
   }
   .skylineinf_container {
     border-radius: 11.2em 0em 0em 0em;
+  }
+  .slipsilder_wrap {
+    padding-right: 0.56em;
+    padding-left: 0.56em;
   }
 }
 .show {
@@ -236,10 +240,6 @@
   .item_container .item_wrap .item_area .item_block .line_style .item_icon {
     width: 20%;
   }
-  .slipsilder_wrap {
-    padding-right: 0.56em;
-    padding-left: 0.56em;
-  }
 }
 @media screen and (max-width: 694px) {
   .skylineinf_container .skyline_under_wrap .skyline_slogan_img {
@@ -293,6 +293,10 @@
   }
 }
 @media screen and (max-width: 414px) {
+  .item_container {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
   .item_container .item_wrap .item_area .item_block {
     height: 420px;
   }
@@ -318,6 +322,12 @@
 @media screen and (max-width: 340px) {
   .item_container .item_wrap .item_area .item_block {
     height: 380px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .item_container {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 }
 @media screen and (max-width: 280px) {
