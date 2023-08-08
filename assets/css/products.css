@@ -14,7 +14,7 @@
 .products_link_wrap {
   background-color: #003B80;
   width: 100%;
-  border-radius: 44.8em;
+  border-radius: 33.6em;
   margin-bottom: 5.6em;
 }
 .products_link_wrap .loge_img_block img {
@@ -170,6 +170,9 @@
   border-left: 0.5em solid #fff;
   padding-left: 1em;
 }
+.protfolio_container .protfolio_img_wrap .protfolio_img_block .img_block .terraexplorerapp_img {
+  height: 250px;
+}
 .protfolio_container .protfolio_img_wrap .changeicon_wrap {
   transform: scale(0.8);
   transform-origin: 0 0;
@@ -180,10 +183,10 @@
   border-radius: 5.6em;
   margin-right: 0.56em;
   color: #fff;
-  line-height: 2.1;
-  font-size: 1.4rem;
-  font-weight: 644;
-  letter-spacing: 0.048em;
+  line-height: 1.6;
+  font-size: 1rem;
+  font-weight: 320;
+  letter-spacing: 0.08em;
 }
 
 .function_wrap .content_body {
@@ -1021,6 +1024,9 @@
   #productsitemlink_view .products_link_wrap {
     margin: 0;
   }
+  #productsitemlink_view .products_link_wrap .caption_block {
+    margin-left: -2em;
+  }
   .products_link_wrap .loge_img_block img {
     width: 40%;
   }
@@ -1145,6 +1151,9 @@
     font-weight: 160;
     letter-spacing: 0.08em;
   }
+  .terraexplorerapp_img {
+    height: 150px;
+  }
 }
 @media screen and (max-width: 412px) {
   .function_wrap .content_body .img_block {
@@ -1160,5 +1169,20 @@
 @media screen and (max-width: 280px) {
   #citybuilder_view .function_wrap .img_block, #html5webl_view .function_wrap .img_block {
     height: 120px;
+  }
+  .function_wrap .content_body .img_block {
+    height: 150px;
+  }
+  .accordion_body .accordion_control .accordion_control_item .accordion_control_text {
+    line-height: 1.6;
+    font-size: 1rem;
+    font-weight: 320;
+    letter-spacing: 0.08em;
+  }
+  #citybuilder .accordion_control_title {
+    line-height: 1.575;
+    font-size: 1.05rem;
+    font-weight: 483;
+    letter-spacing: 0.048em;
   }
 }/*# sourceMappingURL=products.css.map */

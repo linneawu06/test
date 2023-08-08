@@ -351,8 +351,6 @@
       }
     }
   }
-
-
 }
 
 @media screen and (max-width:414px){
@@ -376,8 +374,6 @@
 }
 
 @media screen and (max-width:375px){
-
-
   .item_container {
     h2{
       letter-spacing: 0em;
@@ -399,6 +395,16 @@
   }
 }
 
+
+@media screen and (max-width:340px){
+  .item_container .item_wrap .item_area {
+    .item_block {
+    height: 330px;
+    }
+  }
+}
+
+
 @media screen and (max-width:280px){
   .header_container {
     padding:spacecount(20)spacecount(5)spacecount(5)spacecount(5);
@@ -414,7 +420,7 @@
       padding-bottom:spacecount(8);
     }
     .item_block {
-    height: 450px;
+    height: 330px;
       .line_style h3 {
         padding-left:spacecount(0);
       }
@@ -422,8 +428,7 @@
   }
   
   .skylineinf_container .skyline_under_wrap{
-    bottom:0%;
+    bottom:-2%;
   }
-
   
 }

@@ -169,7 +169,7 @@ border: $style_line border_count($border_line) $color;
 
 //text_weight
 @function weight($count){
-	@if $count <= 1.1 {
+	@if $count <= 1 {
 		@return $count*320;
 	}
 	@else if $count < 1.5 {

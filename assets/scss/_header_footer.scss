@@ -358,8 +358,8 @@ footer {
 }
 
 @media screen and (max-width:280px){
-  .header{
-    @include pd(1);
+  .header {
+    @include pdh(8);
   }
   footer{
     .loge{

@@ -36,7 +36,7 @@
 .products_link_wrap {
   background-color:$primary ;
   width: 100%;
-  @include radius(80);
+  @include radius(60);
   margin-bottom: spacecount(20);
   .loge_img_block {
     img {
@@ -215,7 +215,9 @@
           top:45%;
           border-left:.5em solid $light;
           padding-left: 1em;
-
+        }
+        .terraexplorerapp_img{
+          height: 250px;
         }
       }
     }
@@ -230,7 +232,7 @@
     @include radius(10);
     margin-right: spacecount(2);
     color: $light;
-    @include font(1.4)
+    @include font(1)
   }
 }
 
@@ -1224,6 +1226,9 @@
     @include pd(5);
     .products_link_wrap{
       margin: 0;
+      .caption_block{
+        margin-left: -2em;
+      }
     }
   }
   // productsItemlink
@@ -1402,6 +1407,10 @@
       @include font(.5);
     }
   }
+
+  .terraexplorerapp_img{
+    height: 150px;
+  }
 }
 
 
@@ -1427,6 +1436,8 @@
    .caption_block li .active + .circle::after{
     margin-left: -2.5em;   }
   }
+
+
 }
 
 
@@ -1434,6 +1445,15 @@
 @media screen and (max-width:280px){  
   #citybuilder_view .function_wrap .img_block, #html5webl_view .function_wrap .img_block {
     height: 120px;
+  }
+  .function_wrap .content_body .img_block {
+    height: 150px;
+  }
+  .accordion_body .accordion_control .accordion_control_item .accordion_control_text{
+    @include font(1);
+  }
+  #citybuilder .accordion_control_title{
+    @include font(1.05);
   }
 }
 
