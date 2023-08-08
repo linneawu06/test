@@ -678,6 +678,9 @@ footer .footer_icon_wraper li .icon {
   }
 }
 @media screen and (max-width: 280px) {
+  .header {
+    padding: 0.28em;
+  }
   footer .loge {
     width: 60%;
   }
@@ -1397,8 +1400,6 @@ span {
   .btn_icon {
     display: none;
   }
-}
-@media screen and (max-width: 280px) {
   p {
     line-height: 1.44;
     font-size: 0.9rem;
@@ -1412,9 +1413,9 @@ span {
     letter-spacing: 0.12em;
   }
   h2, h3, h4 {
-    line-height: 1.725;
-    font-size: 1.15rem;
-    font-weight: 529;
+    line-height: 1.8;
+    font-size: 1.2rem;
+    font-weight: 552;
     letter-spacing: 0.048em;
   }
   h5 {

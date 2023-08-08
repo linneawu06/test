@@ -358,6 +358,9 @@ footer {
 }
 
 @media screen and (max-width:280px){
+  .header{
+    @include pd(1);
+  }
   footer{
     .loge{
       width: 60%;
