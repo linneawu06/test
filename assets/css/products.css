@@ -805,7 +805,7 @@
   display: flex;
 }
 .block_industries .item_link_content_box {
-  padding: 1.4em;
+  padding: 0.84em;
   background-image: linear-gradient(179.98deg, rgba(207, 207, 207, 0.978207) -20.79%, #CFCFCF -20.79%, #FFFFFF 95.68%);
   border-radius: 0em 5.6em 0em 5.6em;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -832,7 +832,7 @@
   background-position: 10%;
 }
 .block_industries .urban_block .item_img {
-  margin-left: -5em;
+  margin-left: -3em;
   margin-bottom: -1.2em;
 }
 .block_industries .urban_block .item_content {
@@ -926,6 +926,8 @@
   .block_two .item_block .item_text1_style::after {
     border-left: 17px solid #1383BE;
   }
+}
+@media screen and (max-width: 1024px) {
   .terraexplorerapp_img {
     height: 250px;
   }
@@ -1004,7 +1006,7 @@
   .block_industries .urban_block .box_item_img .item_img {
     margin-top: 2em;
     margin-left: 0em;
-    width: 50%;
+    width: 80%;
   }
   .block_industries .urban_block .item_content {
     margin-left: 2em;
@@ -1020,6 +1022,11 @@
     padding-right: 1.4em;
     padding-left: 1.4em;
     margin-top: 4em;
+  }
+}
+@media screen and (max-width: 849px) and (min-width: 840px) {
+  .block_industries .urban_block .box_item_img .item_img {
+    width: 90%;
   }
 }
 @media screen and (max-width: 911px) and (min-width: 700px) {
@@ -1191,6 +1198,9 @@
   .terraexplorerapp_img {
     height: 150px;
   }
+  .block_industries .urban_block .box_item_img .item_img {
+    width: 50%;
+  }
 }
 @media screen and (max-width: 414px) {
   .function_wrap .content_body .img_block {
@@ -1207,9 +1217,9 @@
     margin-right: 0;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
   .function_wrap .content_body .img_block {
-    height: 180px;
+    height: 165px;
   }
 }
 @media screen and (max-width: 280px) {

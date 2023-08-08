@@ -1068,12 +1068,16 @@
       }
   }
 
-  
+
+}
+
+@media screen and (max-width:1024px){
   .terraexplorerapp_img{
     height: 250px;
   }
-
 }
+
+
 
 @media screen and (max-width:960px){
   .protfolio_container {
@@ -1186,7 +1190,7 @@
         .item_img{
           margin-top: 2em;
           margin-left: 0em;
-          width: 50%;
+          width: 80%;
         }
       }
       .item_content{
@@ -1460,6 +1464,10 @@
 
   .terraexplorerapp_img{
     height: 150px;
+  }
+
+  .block_industries .urban_block .box_item_img .item_img {
+    width: 50%;
   }
 }
 
