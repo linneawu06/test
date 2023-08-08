@@ -187,6 +187,10 @@
   .decorate_img {
     margin-top: -2em;
   }
+  .feature_img_block {
+    display: flex;
+    align-items: end;
+  }
   .skyline_mid_wrap .content_item {
     margin-bottom: 2.8em;
   }

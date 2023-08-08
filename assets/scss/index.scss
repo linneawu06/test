@@ -163,7 +163,10 @@
       margin-top:-3em;
     }
   }
+
 }
+
+
 
 @media screen and (max-width:1400px){
   .skylineinf_container {
@@ -238,7 +241,11 @@
     margin-top:-2em;
   }
 
-
+    
+  .feature_img_block {
+    display: flex;
+    align-items: end;
+  }
 
   .skyline_mid_wrap{
     .content_item{
