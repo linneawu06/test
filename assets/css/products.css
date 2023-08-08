@@ -919,6 +919,9 @@
   .block_two .item_block .item_text1_style::after {
     border-left: 17px solid #1383BE;
   }
+  .terraexplorerapp_img {
+    height: 250px;
+  }
 }
 @media screen and (max-width: 960px) {
   .protfolio_container .protfolio_img_wrap {
@@ -1014,9 +1017,6 @@
   .products_function .skyline_function_block .skyline_function_item .item_title {
     font-size: 0.8em;
     top: 40%;
-  }
-  .terraexplorerapp_img {
-    height: 250px;
   }
 }
 @media screen and (max-width: 569px) {
