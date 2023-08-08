@@ -898,7 +898,7 @@
   }
 
   .item_link_content_box{
-    @include pd(5);
+    @include pd(3);
     background-image:$gradient ;
     @include radius_corner(0,10,0,10);
     box-shadow: $shadow-inset;
@@ -932,7 +932,7 @@
     background-size: contain;
     background-position: 10% ;
     .item_img{
-      margin-left:-5em;
+      margin-left:-3em;
       margin-bottom: -1.2em;
     }
 
@@ -1214,6 +1214,12 @@
 
 
  
+}
+
+@media screen and (max-width: 849px) and (min-width: 840px){
+  .block_industries .urban_block .box_item_img .item_img {
+      width: 90%;
+  }
 }
 
 
