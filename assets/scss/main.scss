@@ -682,7 +682,7 @@ to {opacity: 1}
 
 @media screen and (max-width:768px){
 	p,a {
-		@include font(1);
+		@include font(1.2);
 	}
 	
 	h1 {
@@ -690,7 +690,7 @@ to {opacity: 1}
 	}
 	
 	h2 {
-		@include font(1.6);
+		@include font(1.5);
 	}
 	
 	h3 {
@@ -723,6 +723,28 @@ to {opacity: 1}
 
 
 @media screen and (max-width:569px){
+	
+	p {
+		@include font(1);
+	}
+
+	h1 {
+		@include font(1.3);
+	}
+
+	h2 {
+		@include font(1.2);
+	}
+
+	h3,h4 {
+		@include font(1.2);
+	}
+
+	h5 {
+		@include font(1);
+	}
+
+
 	.header_container{
 		padding-bottom: spacecount(10);
 	}
@@ -846,27 +868,6 @@ to {opacity: 1}
 
 
 @media screen and (max-width:280px){
-
-
-	p {
-		@include font(0.9);
-	}
-
-	h1 {
-		@include font(1.5);
-	}
-
-	h2 {
-		@include font(1.2);
-	}
-
-	h3,h4 {
-		@include font(1.2);
-	}
-
-	h5 {
-		@include font(1);
-	}
 
 	.caption_content{
 		margin-bottom: spacecount(2);

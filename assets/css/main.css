@@ -1270,10 +1270,10 @@ span {
 }
 @media screen and (max-width: 768px) {
   p, a {
-    line-height: 1.6;
-    font-size: 1rem;
-    font-weight: 320;
-    letter-spacing: 0.08em;
+    line-height: 1.8;
+    font-size: 1.2rem;
+    font-weight: 552;
+    letter-spacing: 0.048em;
   }
   h1 {
     line-height: 1.8;
@@ -1282,9 +1282,9 @@ span {
     letter-spacing: 0.12em;
   }
   h2 {
-    line-height: 1.6;
-    font-size: 1.6rem;
-    font-weight: 800;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-weight: 750;
     letter-spacing: 0.12em;
   }
   h3 {
@@ -1317,6 +1317,36 @@ span {
   }
 }
 @media screen and (max-width: 569px) {
+  p {
+    line-height: 1.6;
+    font-size: 1rem;
+    font-weight: 320;
+    letter-spacing: 0.08em;
+  }
+  h1 {
+    line-height: 1.95;
+    font-size: 1.3rem;
+    font-weight: 598;
+    letter-spacing: 0.048em;
+  }
+  h2 {
+    line-height: 1.8;
+    font-size: 1.2rem;
+    font-weight: 552;
+    letter-spacing: 0.048em;
+  }
+  h3, h4 {
+    line-height: 1.8;
+    font-size: 1.2rem;
+    font-weight: 552;
+    letter-spacing: 0.048em;
+  }
+  h5 {
+    line-height: 1.6;
+    font-size: 1rem;
+    font-weight: 320;
+    letter-spacing: 0.08em;
+  }
   .header_container {
     padding-bottom: 2.8em;
   }
@@ -1398,36 +1428,6 @@ span {
   }
 }
 @media screen and (max-width: 280px) {
-  p {
-    line-height: 1.44;
-    font-size: 0.9rem;
-    font-weight: 288;
-    letter-spacing: 0.08em;
-  }
-  h1 {
-    line-height: 1.5;
-    font-size: 1.5rem;
-    font-weight: 750;
-    letter-spacing: 0.12em;
-  }
-  h2 {
-    line-height: 1.8;
-    font-size: 1.2rem;
-    font-weight: 552;
-    letter-spacing: 0.048em;
-  }
-  h3, h4 {
-    line-height: 1.8;
-    font-size: 1.2rem;
-    font-weight: 552;
-    letter-spacing: 0.048em;
-  }
-  h5 {
-    line-height: 1.6;
-    font-size: 1rem;
-    font-weight: 320;
-    letter-spacing: 0.08em;
-  }
   .caption_content {
     margin-bottom: 0.56em;
   }
