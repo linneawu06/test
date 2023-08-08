@@ -275,7 +275,7 @@
 
 .content_body{
   .content_title{
-    @include font(1.35);
+    @include font(1.2);
     text-align: center;
     color:$primary;
   }
@@ -321,7 +321,7 @@
   .item_block2{
     background-color: $light;
     display: flex;
-    @include pd(8);
+    @include pd(2.5);
     box-shadow: $shadow2;
     margin-bottom: 3em;
     border-radius: 0 5em 0 0;
@@ -338,7 +338,6 @@
     .item_img{
       @include pd(5);
       width: 180px;
-      height: 180px;
       display: flex;
     }
   }
@@ -720,10 +719,12 @@
   .item_text{
     text-align: center;
     color:$fourth;
-    @include font(1.2);
   }
   .analyze_box{
     margin-bottom: 2em;
+    .item_text{
+      text-align: center;
+    }
   }
   .box_analyze_img{
     display: flex;
@@ -831,6 +832,7 @@
   
   .continue_link_btn{
     display: none;
+    text-align: center;
   }
 
   .continue_link_btn.active{
@@ -917,6 +919,8 @@
   .public_box{
     margin-top: -5em;
     position: relative;
+    display: flex;
+    align-items: end;
     .item_title_box {
       position: absolute;
       top:20%;
@@ -1085,6 +1089,7 @@
   .block_two{
     .item_block{
       .item_text1{
+        padding: 0;
         &::before{
           display: none;
         }
@@ -1121,6 +1126,7 @@
     .accordion_control_title{
       @include font(1);
       font-weight:900;
+      text-align: center;
     }
   }
 
@@ -1240,6 +1246,13 @@
           }
         }
       }
+    }
+  }
+
+  .block_industries .item_title_box {
+    flex-direction: column;
+    .content_title{
+      margin-left: 0;
     }
   }
   
@@ -1398,6 +1411,7 @@
 
   #citybuilder  .accordion_control_title{
     @include font(1.2);
+    text-align: center;
   }
 
   .products_content .layout_content img{
@@ -1462,11 +1476,16 @@
   }
   }
 
+  .block_industries .item_title_box:nth-child(1){
+    margin-right: 0;
+  }
+
 }
 
 
 
 @media screen and (max-width:280px){  
+ 
   #citybuilder_view .function_wrap .img_block, #html5webl_view .function_wrap .img_block {
     height: 120px;
   }
@@ -1478,6 +1497,16 @@
   }
   #citybuilder .accordion_control_title{
     @include font(1.05);
+    text-align: center;
   }
+  .analyze_wrap{
+    .item_text{
+      @include font(.8);
+    }
+    .box_analyze_img .analyze_img {
+      width: 100%;
+   }
+  }
+
 }
 

@@ -1339,23 +1339,23 @@ span {
     text-align: justify;
   }
   h1 {
-    line-height: 2.21;
-    font-size: 1.3rem;
-    font-weight: 598;
+    line-height: 2.59;
+    font-size: 1.4rem;
+    font-weight: 644;
     letter-spacing: 0.02em;
     text-align: justify;
   }
   h2 {
-    line-height: 2.04;
-    font-size: 1.2rem;
-    font-weight: 552;
+    line-height: 2.125;
+    font-size: 1.25rem;
+    font-weight: 575;
     letter-spacing: 0.02em;
     text-align: justify;
   }
   h3, h4 {
-    line-height: 2.04;
-    font-size: 1.2rem;
-    font-weight: 552;
+    line-height: 2.074;
+    font-size: 1.22rem;
+    font-weight: 561.2;
     letter-spacing: 0.02em;
     text-align: justify;
   }
