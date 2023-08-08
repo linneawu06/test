@@ -649,7 +649,9 @@
   margin-bottom: 0.5em;
 }
 .analyze_wrap .box_analyze_img .analyze_img {
+  height: 40%;
   width: 40%;
+  display: inline-block;
 }
 
 .other_wrap {

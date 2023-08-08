@@ -6,7 +6,7 @@
 .header_container {
   box-shadow:$shadow-inset;
   background: url("../imges/home/home-bg.png") no-repeat ;
-  @include pd(40);
+  @include pd(35);
   .feature_img{
     height: 100%;
     width: 100%;

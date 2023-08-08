@@ -1,7 +1,7 @@
 .header_container {
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   background: url("../imges/home/home-bg.png") no-repeat;
-  padding: 11.2em;
+  padding: 9.8em;
 }
 .header_container .feature_img {
   height: 100%;
