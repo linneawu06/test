@@ -60,6 +60,11 @@
   color: #fff;
 }
 
+.item_link {
+  display: flex;
+  align-items: center;
+}
+
 @media screen and (max-width: 375px) {
   .content_bottom ul {
     margin-left: 0.56em;

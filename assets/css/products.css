@@ -282,6 +282,7 @@
   padding: 1.4em;
   width: 180px;
   height: 180px;
+  display: flex;
 }
 .content_body .item_box2 {
   position: initial;
@@ -423,7 +424,7 @@
 }
 
 .products_content {
-  padding-left: 1.4em;
+  padding: 1.4em;
 }
 .products_content .products_introduce:first-child .content_title {
   position: relative;
@@ -845,8 +846,7 @@
 
 @media screen and (max-width: 1280px) {
   .protfolio_container .protfolio_img_wrap {
-    left: 19%;
-    padding: 2em;
+    padding: 1em;
   }
   .coordinate_box {
     display: flex;
@@ -924,9 +924,6 @@
   }
 }
 @media screen and (max-width: 960px) {
-  .protfolio_container .protfolio_img_wrap {
-    left: 22%;
-  }
   .protfolio_container .protfolio_img_wrap .changeicon_wrap {
     transform: scale(0.5);
     margin-top: -0.5em;
@@ -966,7 +963,7 @@
     border-radius: 0 0 0 5em;
   }
   .box_content_data {
-    padding: 1.4em;
+    padding: 0.56em;
   }
   .block_industries .item_link_content_box {
     padding: 0.56em;
@@ -1019,15 +1016,29 @@
     top: 40%;
   }
 }
-@media screen and (max-width: 569px) {
+@media screen and (max-width: 694px) {
   #productsitemlink_view {
     padding: 1.4em;
   }
-  #productsitemlink_view .products_link_wrap {
-    margin: 0;
+  #productsitemlink_view .products_link_wrap .loge_img_block img {
+    height: 40%;
+    width: 40%;
   }
   #productsitemlink_view .products_link_wrap .caption_block {
-    margin-left: -2em;
+    margin: 0em;
+  }
+  #productsitemlink_view .products_link_wrap .caption_block li {
+    padding-top: 0.56em;
+    padding-bottom: 0.56em;
+    text-align: center;
+  }
+  #productsitemlink_view .products_link_wrap .caption_block li .active + .circle::after {
+    left: 35%;
+  }
+}
+@media screen and (max-width: 569px) {
+  #productsitemlink_view .products_link_wrap {
+    margin: 0;
   }
   .products_link_wrap .loge_img_block img {
     width: 40%;
@@ -1072,7 +1083,6 @@
     padding-bottom: 0.84em;
   }
   .protfolio_container .protfolio_img_wrap {
-    left: 25%;
     padding-top: 0.28em;
   }
   .protfolio_container .protfolio_img_wrap .protfolio_img_block {
@@ -1094,7 +1104,7 @@
     display: none;
   }
   .products_content {
-    padding-left: 0em;
+    padding: 0em;
     padding-right: 0.56em;
     padding-left: 0.56em;
   }

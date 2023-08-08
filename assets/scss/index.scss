@@ -176,7 +176,7 @@
 //media
 @media screen and (max-width:1280px){
   .header_container {
-    @include pd(30);
+    @include pd(20);
   }
 
   // .content_block{
@@ -218,7 +218,7 @@
 
 @media screen and (max-width:960px){
   .header_container{
-    padding: spacecount(25) spacecount(20) spacecount(20) spacecount(20);
+    padding: spacecount(25) spacecount(10) spacecount(25) spacecount(10);
     display: flex;
     align-items: center;
   }
@@ -259,9 +259,13 @@
   }  
 }
 
+
+
+
+
 @media screen and (max-width:768px){
   .header_container {
-    padding:spacecount(15)spacecount(5)spacecount(5)spacecount(10);
+    padding:spacecount(20)spacecount(5)spacecount(10)spacecount(5);
     .caption_content{
       margin-bottom:spacecount(10)
     }
@@ -293,7 +297,7 @@
               padding-left:spacecount(3);
             }
             .item_icon {
-              width:25%;
+              width:20%;
             }
           }
         }
@@ -303,6 +307,12 @@
 
   .slipsilder_wrap{
     @include pdh(2);
+  }
+}
+
+@media screen and (max-width:694px){
+  .skylineinf_container .skyline_under_wrap .skyline_slogan_img {
+    width: 50%;
   }
 }
 
@@ -408,7 +418,7 @@
 @media screen and (max-width:340px){
   .item_container .item_wrap .item_area {
     .item_block {
-    height: 330px;
+    height: 380px;
     }
   }
 }
@@ -416,7 +426,7 @@
 
 @media screen and (max-width:280px){
   .header_container {
-    padding:spacecount(20)spacecount(2)spacecount(2)spacecount(5);
+    padding:spacecount(20)spacecount(2)spacecount(5)spacecount(2);
   }
 
   .products_container .space_v {

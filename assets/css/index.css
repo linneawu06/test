@@ -152,7 +152,7 @@
 }
 @media screen and (max-width: 1280px) {
   .header_container {
-    padding: 8.4em;
+    padding: 5.6em;
   }
   .item_container .item_wrap .item_area {
     padding: 1.12em;
@@ -173,7 +173,7 @@
 
 @media screen and (max-width: 960px) {
   .header_container {
-    padding: 7em 5.6em 5.6em 5.6em;
+    padding: 7em 2.8em 7em 2.8em;
     display: flex;
     align-items: center;
   }
@@ -196,7 +196,7 @@
 }
 @media screen and (max-width: 768px) {
   .header_container {
-    padding: 4.2em 1.4em 1.4em 2.8em;
+    padding: 5.6em 1.4em 2.8em 1.4em;
   }
   .header_container .caption_content {
     margin-bottom: 2.8em;
@@ -223,11 +223,16 @@
     padding-left: 0.84em;
   }
   .item_container .item_wrap .item_area .item_block .line_style .item_icon {
-    width: 25%;
+    width: 20%;
   }
   .slipsilder_wrap {
     padding-right: 0.56em;
     padding-left: 0.56em;
+  }
+}
+@media screen and (max-width: 694px) {
+  .skylineinf_container .skyline_under_wrap .skyline_slogan_img {
+    width: 50%;
   }
 }
 @media screen and (max-width: 569px) {
@@ -296,12 +301,12 @@
 }
 @media screen and (max-width: 340px) {
   .item_container .item_wrap .item_area .item_block {
-    height: 330px;
+    height: 380px;
   }
 }
 @media screen and (max-width: 280px) {
   .header_container {
-    padding: 5.6em 0.56em 0.56em 1.4em;
+    padding: 5.6em 0.56em 1.4em 0.56em;
   }
   .products_container .space_v {
     padding-top: 0.56em;
