@@ -1449,7 +1449,7 @@
     }
   }
   
-
+  #productsitemlink_view
   .products_link_wrap {
     .link_block{
         .caption_block{
@@ -1459,9 +1459,10 @@
         }
       }
    .caption_block li .active + .circle::after{
-    margin-left: -2.5em;   }
+    margin-left: -2.5em;  
+    left: 0;
   }
-
+  }
 
 }
 

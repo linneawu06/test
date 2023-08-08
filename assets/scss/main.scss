@@ -54,7 +54,6 @@ li{
 
 p {
 	@include font(1.1);
-	word-break: break-all; 
 }
 
 img {
@@ -63,27 +62,22 @@ img {
 
 h1 {
 	@include font(2);
-	word-break: break-all; 
 }
 
 h2 {
 	@include font(1.6);
-	word-break: break-all; 
 }
 
 h3 {
 	@include font(1.6);
-	word-break: break-all; 
 }
 
 h4 {
 	@include font(1.25);
-	word-break: break-all; 
 }
 
 h5 {
 	@include font(1.1);
-	word-break: break-all; 
 }
 
 span{
@@ -225,7 +219,7 @@ span{
 
 //line_effect
 .line_style {
-	@include pd(5);
+	@include pd(4);
 	@include radius_corner(0,5,0,5);
 	@include border_style(1.2);
 	transform: translate(-10px,-10px);

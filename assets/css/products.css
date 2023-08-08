@@ -180,10 +180,11 @@
   border-radius: 5.6em;
   margin-right: 0.56em;
   color: #fff;
-  line-height: 1.6;
+  line-height: 1.65;
   font-size: 1rem;
   font-weight: 320;
   letter-spacing: 0.08em;
+  text-align: justify;
 }
 
 .function_wrap .content_body {
@@ -218,10 +219,11 @@
 }
 
 .content_body .content_title {
-  line-height: 2.025;
+  line-height: 2.295;
   font-size: 1.35rem;
   font-weight: 621;
   letter-spacing: 0.02em;
+  text-align: justify;
   text-align: center;
   color: #003B80;
 }
@@ -354,10 +356,11 @@
   background-color: #1383BE;
   color: #fff;
   text-align: center;
-  line-height: 1.8;
+  line-height: 2.04;
   font-size: 1.2rem;
   font-weight: 552;
   letter-spacing: 0.02em;
+  text-align: justify;
 }
 .block_two .item_block .item_img {
   width: 100%;
@@ -537,10 +540,11 @@
   padding: 0.56em;
 }
 .accordion_body .accordion_control .accordion_control_item .accordion_control_title {
-  line-height: 1.8;
+  line-height: 2.04;
   font-size: 1.2rem;
   font-weight: 552;
   letter-spacing: 0.02em;
+  text-align: justify;
   background-color: #1383BE;
   color: #fff;
   text-align: center;
@@ -551,10 +555,11 @@
   background-color: #F6A745;
 }
 .accordion_body .accordion_control .accordion_control_item .accordion_control_text {
-  line-height: 1.8;
+  line-height: 2.04;
   font-size: 1.2rem;
   font-weight: 552;
   letter-spacing: 0.02em;
+  text-align: justify;
   padding: 1.12em;
 }
 .accordion_body .accordion_box {
@@ -587,10 +592,11 @@
   padding: 0.84em;
   margin-top: 0.84em;
   margin-bottom: 0.84em;
-  line-height: 1.6;
+  line-height: 1.65;
   font-size: 1rem;
   font-weight: 320;
   letter-spacing: 0.08em;
+  text-align: justify;
   color: #1383BE;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
@@ -636,10 +642,11 @@
 .analyze_wrap .item_text {
   text-align: center;
   color: #1383BE;
-  line-height: 1.8;
+  line-height: 2.04;
   font-size: 1.2rem;
   font-weight: 552;
   letter-spacing: 0.02em;
+  text-align: justify;
 }
 .analyze_wrap .analyze_box {
   margin-bottom: 2em;
@@ -947,10 +954,11 @@
     width: 100%;
   }
   .accordion_body .accordion_control .accordion_control_item .accordion_control_title {
-    line-height: 1.6;
+    line-height: 1.65;
     font-size: 1rem;
     font-weight: 320;
     letter-spacing: 0.08em;
+    text-align: justify;
     font-weight: 900;
   }
   .analyze_wrap .box_analyze_img .analyze_img {
@@ -1122,10 +1130,11 @@
     margin-bottom: 2.24em;
   }
   .analyze_wrap .item_text {
-    line-height: 1.8;
+    line-height: 2.04;
     font-size: 1.2rem;
     font-weight: 552;
     letter-spacing: 0.02em;
+    text-align: justify;
     font-weight: 900;
     padding: 0;
   }
@@ -1134,10 +1143,11 @@
     border-radius: 5px;
   }
   #citybuilder .accordion_control_title {
-    line-height: 1.8;
+    line-height: 2.04;
     font-size: 1.2rem;
     font-weight: 552;
     letter-spacing: 0.02em;
+    text-align: justify;
   }
   .products_content .layout_content img {
     width: 40%;
@@ -1158,10 +1168,11 @@
     flex-direction: column;
   }
   .process_item_link .process_title {
-    line-height: 0.8;
+    line-height: 0.825;
     font-size: 0.5rem;
     font-weight: 160;
     letter-spacing: 0.08em;
+    text-align: justify;
   }
   .terraexplorerapp_img {
     height: 150px;
@@ -1171,11 +1182,12 @@
   .function_wrap .content_body .img_block {
     height: 220px;
   }
-  .products_link_wrap .link_block .caption_block p {
+  #productsitemlink_view .products_link_wrap .link_block .caption_block p {
     padding: 0;
   }
-  .products_link_wrap .caption_block li .active + .circle::after {
+  #productsitemlink_view .products_link_wrap .caption_block li .active + .circle::after {
     margin-left: -2.5em;
+    left: 0;
   }
 }
 @media screen and (max-width: 280px) {
@@ -1186,15 +1198,17 @@
     height: 150px;
   }
   .accordion_body .accordion_control .accordion_control_item .accordion_control_text {
-    line-height: 1.6;
+    line-height: 1.65;
     font-size: 1rem;
     font-weight: 320;
     letter-spacing: 0.08em;
+    text-align: justify;
   }
   #citybuilder .accordion_control_title {
-    line-height: 1.575;
+    line-height: 1.785;
     font-size: 1.05rem;
     font-weight: 483;
     letter-spacing: 0.02em;
+    text-align: justify;
   }
 }/*# sourceMappingURL=products.css.map */

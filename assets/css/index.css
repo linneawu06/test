@@ -134,7 +134,7 @@
   background-color: #0F2C65;
   position: absolute;
   left: 0;
-  bottom: -5%;
+  bottom: -2%;
   border-radius: 0em 0em 39.2em 0em;
   box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.15);
 }
@@ -313,17 +313,25 @@
   }
   .item_container .item_wrap .item_area {
     padding: 0.56em;
+    padding-bottom: 5em;
   }
   .item_container .item_wrap .item_area .item_img {
     padding-bottom: 2.24em;
   }
   .item_container .item_wrap .item_area .item_block {
-    height: 430px;
+    height: 460px;
   }
   .item_container .item_wrap .item_area .item_block .line_style h3 {
     padding-left: 0.28em;
   }
   .skylineinf_container .skyline_under_wrap {
     bottom: -2%;
+  }
+  .skylineinf_container .skyline_under_wrap .skyline_slogan_img {
+    width: 80%;
+    margin-left: 0em;
+  }
+  .line_style {
+    padding: 0.28em;
   }
 }/*# sourceMappingURL=index.css.map */

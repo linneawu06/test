@@ -573,7 +573,7 @@ footer .footer_icon_wraper li .icon {
 }
 @media screen and (max-width: 960px) {
   .loge-1 {
-    width: 70%;
+    width: 65%;
   }
 }
 @media screen and (max-width: 569px) {
@@ -714,10 +714,11 @@ body {
 }
 
 a {
-  line-height: 1.6;
+  line-height: 1.65;
   font-size: 1rem;
   font-weight: 320;
   letter-spacing: 0.08em;
+  text-align: justify;
   font-weight: 900;
 }
 a:hover, a:focus, a:active {
@@ -730,11 +731,11 @@ li {
 }
 
 p {
-  line-height: 1.65;
+  line-height: 1.87;
   font-size: 1.1rem;
   font-weight: 506;
   letter-spacing: 0.02em;
-  word-break: break-all;
+  text-align: justify;
 }
 
 img {
@@ -746,7 +747,7 @@ h1 {
   font-size: 2rem;
   font-weight: 1000;
   letter-spacing: 0.08em;
-  word-break: break-all;
+  text-align: justify;
 }
 
 h2 {
@@ -754,7 +755,7 @@ h2 {
   font-size: 1.6rem;
   font-weight: 800;
   letter-spacing: 0.08em;
-  word-break: break-all;
+  text-align: justify;
 }
 
 h3 {
@@ -762,30 +763,31 @@ h3 {
   font-size: 1.6rem;
   font-weight: 800;
   letter-spacing: 0.08em;
-  word-break: break-all;
+  text-align: justify;
 }
 
 h4 {
-  line-height: 1.875;
+  line-height: 2.125;
   font-size: 1.25rem;
   font-weight: 575;
   letter-spacing: 0.02em;
-  word-break: break-all;
+  text-align: justify;
 }
 
 h5 {
-  line-height: 1.65;
+  line-height: 1.87;
   font-size: 1.1rem;
   font-weight: 506;
   letter-spacing: 0.02em;
-  word-break: break-all;
+  text-align: justify;
 }
 
 span {
-  line-height: 1.65;
+  line-height: 1.87;
   font-size: 1.1rem;
   font-weight: 506;
   letter-spacing: 0.02em;
+  text-align: justify;
 }
 
 .icon {
@@ -901,7 +903,7 @@ span {
 }
 
 .line_style {
-  padding: 1.4em;
+  padding: 1.12em;
   border-radius: 0em 2.8em 0em 2.8em;
   border: solid 0.12em #003B80;
   transform: translate(-10px, -10px);
@@ -1226,34 +1228,39 @@ span {
     padding-bottom: 5.04em;
   }
   p {
-    line-height: 1.575;
+    line-height: 1.785;
     font-size: 1.05rem;
     font-weight: 483;
     letter-spacing: 0.02em;
+    text-align: justify;
   }
   h1 {
     line-height: 1.5;
     font-size: 1.5rem;
     font-weight: 750;
     letter-spacing: 0.08em;
+    text-align: justify;
   }
   h2 {
-    line-height: 2.1;
+    line-height: 2.59;
     font-size: 1.4rem;
     font-weight: 644;
     letter-spacing: 0.02em;
+    text-align: justify;
   }
   h3 {
-    line-height: 1.95;
+    line-height: 2.21;
     font-size: 1.3rem;
     font-weight: 598;
     letter-spacing: 0.02em;
+    text-align: justify;
   }
   h4 {
-    line-height: 1.8;
+    line-height: 2.04;
     font-size: 1.2rem;
     font-weight: 552;
     letter-spacing: 0.02em;
+    text-align: justify;
   }
 }
 @media screen and (max-width: 960px) {
@@ -1270,46 +1277,53 @@ span {
 }
 @media screen and (max-width: 768px) {
   p, a {
-    line-height: 1.8;
+    line-height: 2.04;
     font-size: 1.2rem;
     font-weight: 552;
     letter-spacing: 0.02em;
+    text-align: justify;
   }
   h1 {
     line-height: 1.8;
     font-size: 1.8rem;
     font-weight: 900;
     letter-spacing: 0.08em;
+    text-align: justify;
   }
   h2 {
     line-height: 1.5;
     font-size: 1.5rem;
     font-weight: 750;
     letter-spacing: 0.08em;
+    text-align: justify;
   }
   h3 {
     line-height: 1.55;
     font-size: 1.55rem;
     font-weight: 775;
     letter-spacing: 0.08em;
+    text-align: justify;
   }
   h4 {
-    line-height: 2.175;
+    line-height: 2.6825;
     font-size: 1.45rem;
     font-weight: 667;
     letter-spacing: 0.02em;
+    text-align: justify;
   }
   h5 {
-    line-height: 1.95;
+    line-height: 2.21;
     font-size: 1.3rem;
     font-weight: 598;
     letter-spacing: 0.02em;
+    text-align: justify;
   }
   span {
-    line-height: 1.6;
+    line-height: 1.65;
     font-size: 1rem;
     font-weight: 320;
     letter-spacing: 0.08em;
+    text-align: justify;
   }
   .caption_block .content_caption::before {
     width: 50px;
@@ -1318,34 +1332,39 @@ span {
 }
 @media screen and (max-width: 569px) {
   p {
-    line-height: 1.6;
+    line-height: 1.65;
     font-size: 1rem;
     font-weight: 320;
     letter-spacing: 0.08em;
+    text-align: justify;
   }
   h1 {
-    line-height: 1.95;
+    line-height: 2.21;
     font-size: 1.3rem;
     font-weight: 598;
     letter-spacing: 0.02em;
+    text-align: justify;
   }
   h2 {
-    line-height: 1.8;
+    line-height: 2.04;
     font-size: 1.2rem;
     font-weight: 552;
     letter-spacing: 0.02em;
+    text-align: justify;
   }
   h3, h4 {
-    line-height: 1.8;
+    line-height: 2.04;
     font-size: 1.2rem;
     font-weight: 552;
     letter-spacing: 0.02em;
+    text-align: justify;
   }
   h5 {
-    line-height: 1.6;
+    line-height: 1.65;
     font-size: 1rem;
     font-weight: 320;
     letter-spacing: 0.08em;
+    text-align: justify;
   }
   .header_container {
     padding-bottom: 2.8em;
