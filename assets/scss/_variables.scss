@@ -186,9 +186,9 @@ border: $style_line border_count($border_line) $color;
 		@return $baseLine*0.2;
 	}
 	@else if $count < 1.5 {
-		@return $baseLine*0.12;
+		@return $baseLine*0.05;
 	}
-	@return $baseLine*0.3;
+	@return $baseLine*0.2;
 }
 
 

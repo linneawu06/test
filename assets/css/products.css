@@ -221,7 +221,7 @@
   line-height: 2.025;
   font-size: 1.35rem;
   font-weight: 621;
-  letter-spacing: 0.048em;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #003B80;
 }
@@ -356,7 +356,7 @@
   line-height: 1.8;
   font-size: 1.2rem;
   font-weight: 552;
-  letter-spacing: 0.048em;
+  letter-spacing: 0.02em;
 }
 .block_two .item_block .item_img {
   width: 100%;
@@ -539,7 +539,7 @@
   line-height: 1.8;
   font-size: 1.2rem;
   font-weight: 552;
-  letter-spacing: 0.048em;
+  letter-spacing: 0.02em;
   background-color: #1383BE;
   color: #fff;
   text-align: center;
@@ -553,7 +553,7 @@
   line-height: 1.8;
   font-size: 1.2rem;
   font-weight: 552;
-  letter-spacing: 0.048em;
+  letter-spacing: 0.02em;
   padding: 1.12em;
 }
 .accordion_body .accordion_box {
@@ -638,7 +638,7 @@
   line-height: 1.8;
   font-size: 1.2rem;
   font-weight: 552;
-  letter-spacing: 0.048em;
+  letter-spacing: 0.02em;
 }
 .analyze_wrap .analyze_box {
   margin-bottom: 2em;
@@ -1115,7 +1115,7 @@
     line-height: 1.8;
     font-size: 1.2rem;
     font-weight: 552;
-    letter-spacing: 0.048em;
+    letter-spacing: 0.02em;
     font-weight: 900;
     padding: 0;
   }
@@ -1127,7 +1127,7 @@
     line-height: 1.8;
     font-size: 1.2rem;
     font-weight: 552;
-    letter-spacing: 0.048em;
+    letter-spacing: 0.02em;
   }
   .products_content .layout_content img {
     width: 40%;
@@ -1185,6 +1185,6 @@
     line-height: 1.575;
     font-size: 1.05rem;
     font-weight: 483;
-    letter-spacing: 0.048em;
+    letter-spacing: 0.02em;
   }
 }/*# sourceMappingURL=products.css.map */
