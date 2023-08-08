@@ -1388,19 +1388,16 @@ span {
   .caption_block .content_caption1 .active::before {
     left: 30%;
   }
+  .btn_icon {
+    display: none;
+  }
 }
 @media screen and (max-width: 375px) {
-  .btn_icon {
-    padding-left: 0.28em;
-  }
   .content_item .content_title {
     text-align: center;
   }
 }
 @media screen and (max-width: 280px) {
-  .btn_icon {
-    display: none;
-  }
   p {
     line-height: 1.44;
     font-size: 0.9rem;

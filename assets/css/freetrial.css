@@ -132,6 +132,9 @@
   #freetrialItemone_view .step_block .head_block h5 {
     letter-spacing: 0em;
   }
+  #freetrialItemone_view .step_block .step_title::after {
+    content: "";
+  }
   .content_block {
     margin-left: 0.28em;
   }

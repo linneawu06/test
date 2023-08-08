@@ -152,10 +152,17 @@
         justify-content: center;
       }
     }
-    .step_block .head_block h5 {
-      letter-spacing: 0em;
+    .step_block{
+      .head_block h5 {
+        letter-spacing: 0em;
+      }
+
+     .step_title{
+        &::after{
+          content: "";
+        }
+      }
     }
-    
   }
 
   .content_block{

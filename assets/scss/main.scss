@@ -829,13 +829,14 @@ to {opacity: 1}
 		}
 	}
 
+	.btn_icon {
+		display: none;		
+	}
 
 }
 
 @media screen and (max-width:375px){
-	.btn_icon {
-		padding-left: spacecount(0);
-	}
+
 	.content_item {
 		.content_title {
 			text-align: center;
@@ -845,9 +846,7 @@ to {opacity: 1}
 
 
 @media screen and (max-width:280px){
-	.btn_icon{
-		display: none;		
-	}
+
 
 	p {
 		@include font(0.9);
