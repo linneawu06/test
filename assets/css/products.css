@@ -180,7 +180,7 @@
   border-radius: 5.6em;
   margin-right: 0.56em;
   color: #fff;
-  line-height: 1.65;
+  line-height: 1.5;
   font-size: 1rem;
   font-weight: 320;
   letter-spacing: 0.08em;
@@ -193,7 +193,7 @@
   margin-bottom: 2em;
 }
 .function_wrap .content_body .img_block {
-  height: 400px;
+  height: 350px;
   margin: 0 auto;
   margin-bottom: 1.4em;
 }
@@ -219,7 +219,7 @@
 }
 
 .content_body .content_title {
-  line-height: 2.04;
+  line-height: 1.86;
   font-size: 1.2rem;
   font-weight: 552;
   letter-spacing: 0.02em;
@@ -355,7 +355,7 @@
   background-color: #1383BE;
   color: #fff;
   text-align: center;
-  line-height: 2.04;
+  line-height: 1.86;
   font-size: 1.2rem;
   font-weight: 552;
   letter-spacing: 0.02em;
@@ -539,7 +539,7 @@
   padding: 0.56em;
 }
 .accordion_body .accordion_control .accordion_control_item .accordion_control_title {
-  line-height: 2.04;
+  line-height: 1.86;
   font-size: 1.2rem;
   font-weight: 552;
   letter-spacing: 0.02em;
@@ -554,7 +554,7 @@
   background-color: #F6A745;
 }
 .accordion_body .accordion_control .accordion_control_item .accordion_control_text {
-  line-height: 2.04;
+  line-height: 1.86;
   font-size: 1.2rem;
   font-weight: 552;
   letter-spacing: 0.02em;
@@ -591,7 +591,7 @@
   padding: 0.84em;
   margin-top: 0.84em;
   margin-bottom: 0.84em;
-  line-height: 1.65;
+  line-height: 1.5;
   font-size: 1rem;
   font-weight: 320;
   letter-spacing: 0.08em;
@@ -957,7 +957,7 @@
     width: 100%;
   }
   .accordion_body .accordion_control .accordion_control_item .accordion_control_title {
-    line-height: 1.65;
+    line-height: 1.5;
     font-size: 1rem;
     font-weight: 320;
     letter-spacing: 0.08em;
@@ -1022,10 +1022,13 @@
     margin-top: 4em;
   }
 }
-@media screen and (max-width: 912px) and (min-width: 700px) {
+@media screen and (max-width: 911px) and (min-width: 700px) {
   .products_function .skyline_function_block .skyline_function_item .item_title {
     font-size: 0.8em;
     top: 40%;
+  }
+  .function_wrap .content_body .img_block {
+    height: 300px;
   }
 }
 @media screen and (max-width: 694px) {
@@ -1045,7 +1048,7 @@
     text-align: center;
   }
   #productsitemlink_view .products_link_wrap .caption_block li .active + .circle::after {
-    left: 35%;
+    left: 10%;
   }
   .block_industries .item_title_box {
     flex-direction: column;
@@ -1077,7 +1080,7 @@
     left: 12%;
   }
   .function_wrap .content_body .img_block {
-    height: 340px;
+    height: 350px;
   }
   .products_function {
     margin-top: 2.8em;
@@ -1140,7 +1143,7 @@
     margin-bottom: 2.24em;
   }
   .analyze_wrap .item_text {
-    line-height: 2.04;
+    line-height: 1.86;
     font-size: 1.2rem;
     font-weight: 552;
     letter-spacing: 0.02em;
@@ -1153,7 +1156,7 @@
     border-radius: 5px;
   }
   #citybuilder .accordion_control_title {
-    line-height: 2.04;
+    line-height: 1.86;
     font-size: 1.2rem;
     font-weight: 552;
     letter-spacing: 0.02em;
@@ -1179,7 +1182,7 @@
     flex-direction: column;
   }
   .process_item_link .process_title {
-    line-height: 0.825;
+    line-height: 0.75;
     font-size: 0.5rem;
     font-weight: 160;
     letter-spacing: 0.08em;
@@ -1189,9 +1192,9 @@
     height: 150px;
   }
 }
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 414px) {
   .function_wrap .content_body .img_block {
-    height: 220px;
+    height: 250px;
   }
   #productsitemlink_view .products_link_wrap .link_block .caption_block p {
     padding: 0;
@@ -1212,14 +1215,14 @@
     height: 150px;
   }
   .accordion_body .accordion_control .accordion_control_item .accordion_control_text {
-    line-height: 1.65;
+    line-height: 1.5;
     font-size: 1rem;
     font-weight: 320;
     letter-spacing: 0.08em;
     text-align: justify;
   }
   #citybuilder .accordion_control_title {
-    line-height: 1.785;
+    line-height: 1.6275;
     font-size: 1.05rem;
     font-weight: 483;
     letter-spacing: 0.02em;
@@ -1227,7 +1230,7 @@
     text-align: center;
   }
   .analyze_wrap .item_text {
-    line-height: 1.32;
+    line-height: 1.2;
     font-size: 0.8rem;
     font-weight: 256;
     letter-spacing: 0.08em;

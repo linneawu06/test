@@ -57,6 +57,8 @@
 
 .item_container {
   padding-top: 0;
+  padding-left: 5em;
+  padding-right: 5em;
   .item_wrap {
     .item_area {
       @include pd(8);
@@ -77,7 +79,7 @@
       .item_block {
 
         // @include pd(4);
-        height: 280px;
+        height: 350px;
         box-shadow:$shadow2;
         @include radius_corner(0,5,0,5);
         h3{
@@ -196,6 +198,7 @@
             padding-left:spacecount(0);
             text-align: center;
             letter-spacing:0em;
+            padding-top: .8em;
           }
         }
       }
@@ -220,7 +223,7 @@
 
 @media screen and (max-width:960px){
   .header_container{
-    padding: spacecount(25) spacecount(10) spacecount(25) spacecount(10);
+    padding: spacecount(25) spacecount(5) spacecount(25) spacecount(5);
     display: flex;
     align-items: center;
   }
@@ -255,6 +258,8 @@
   }
 
   .item_container{
+      padding-left: 2em;
+      padding-right: 2em;
     .item_wrap {
       .item_area {
         .item_block {
@@ -271,7 +276,7 @@
 
 @media screen and (max-width:768px){
   .header_container {
-    padding:spacecount(20)spacecount(5)spacecount(10)spacecount(5);
+    padding:spacecount(25)spacecount(5)spacecount(10)spacecount(5);
     .caption_content{
       margin-bottom:spacecount(10)
     }
@@ -296,7 +301,7 @@
     .item_wrap {
       .item_area {
         .item_block {
-          height: 350px;
+          height: 450px;
           .line_style{
             transform: translate(-8px, -8px);
             h3 {
@@ -322,13 +327,18 @@
   }
 }
 
+@media screen and (max-width:569px) and (min-width:450px) {
+  .item_container .item_wrap .item_area .item_block .line_style h3 {
+    padding-top: 1.8em;
+  }
+}
+
+
 
 @media screen and (max-width:569px){
   // .content_block{
   //   margin-right: spacecount(4);
   // }
-
-  
   .btn_icon {
     padding-left: spacecount(0);
   }
@@ -383,7 +393,7 @@
   //   margin-right: spacecount(0);
   // }
   .item_container .item_wrap .item_area .item_block {
-    height: 350px;
+    height: 420px;
     .line_style {
       .item_icon{
         width: 18%;
@@ -431,6 +441,10 @@
 
 
 @media screen and (max-width:280px){
+  .item_container {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
   .header_container {
     padding:spacecount(20)spacecount(2)spacecount(5)spacecount(2);
   }
@@ -447,9 +461,13 @@
       padding-bottom:spacecount(8);
     }
     .item_block {
-    height: 460px;
-      .line_style h3 {
-        padding-left:spacecount(0);
+    height: 400px;
+      .line_style{
+          @include pd(2.8);
+          h3 {
+            padding-left:spacecount(0);
+            padding-top: 0;
+          }
       }
     }
   }
@@ -463,8 +481,6 @@
     margin-left: 0em;
   }
 
-  .line_style{
-    @include pd(1);
-  }
+
   
 }

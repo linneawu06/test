@@ -197,13 +197,13 @@ border: $style_line border_count($border_line) $color;
 // line
 @function line($count){
 	@if $count <= 1 {
-		@return $count *1.65;
+		@return $count *1.5;
 	}
 	@else if $count < 1.4 {
-		@return $count *1.7;
+		@return $count *1.55;
 	}
 	@else if $count < 1.5 {
-		@return $count *1.85;
+		@return $count *1.58;
 	}
 	@return $count *1;
 }

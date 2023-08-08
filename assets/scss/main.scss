@@ -688,11 +688,11 @@ to {opacity: 1}
 	}
 	
 	h3 {
-		@include font(1.55);
+		@include font(1.4);
 	}
 	
 	h4 {
-		@include font(1.45);
+		@include font(1.35);
 	}
 	
 	h5 {
@@ -865,5 +865,33 @@ to {opacity: 1}
 
 	.caption_content{
 		margin-bottom: spacecount(2);
+	}
+
+	p,a {
+		@include font(1);
+	}
+	
+	h1 {
+		@include font(1.22);
+	}
+	
+	h2 {
+		@include font(1.2);
+	}
+	
+	h3 {
+		@include font(1.15);
+	}
+	
+	h4 {
+		@include font(1.1);
+	}
+	
+	h5 {
+		@include font(1);
+	}
+
+	span{
+		@include font(1)
 	}
 }
