@@ -1220,8 +1220,11 @@
     }
   }
 
-
- 
+  .block_industries .urban_block .item_content {
+      padding-left:.5em;
+      padding-right:.5em;
+      margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 849px) and (min-width: 840px){
