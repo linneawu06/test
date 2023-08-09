@@ -1245,6 +1245,18 @@
   }
 }
 
+@media  screen and (max-width:768px) {
+  #productsitemlink_view{
+    .products_link_wrap{
+      .caption_block {
+        li{
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
 @media  screen and (max-width:694px) {
   #productsitemlink_view{
     @include pd(5);
@@ -1282,6 +1294,10 @@
       margin-left:0em;
     }
   } 
+
+  .control_click {
+    text-align: center;
+  }
   
 }
 
