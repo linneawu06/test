@@ -1192,7 +1192,7 @@
 
       .box_item_img{
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
         .item_img{
           margin-top: 2em;
           margin-left: 0em;
@@ -1270,12 +1270,18 @@
     }
   }
 
-  .block_industries .item_title_box {
-    flex-direction: column;
-    .content_title{
-      margin-left: 0;
+  .block_industries{
+    .item_title_box {
+      flex-direction: column;
+      .content_title{
+        margin-left: 0;
+      }
     }
-  }
+
+    .urban_block .item_content{
+      margin-left:0em;
+    }
+  } 
   
 }
 
