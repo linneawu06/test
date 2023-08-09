@@ -329,6 +329,7 @@ button {
   font-size: 0.4em;
   margin-left: 0.7em;
   display: block;
+  margin-top: 0.2em;
 }
 
 * {
@@ -576,6 +577,20 @@ footer .footer_icon_wraper li .icon {
     width: 65%;
   }
 }
+@media screen and (max-width: 600px) {
+  .header nav .dropdown-toggle {
+    margin-right: 0em;
+  }
+  .control_click {
+    text-align: center;
+  }
+  footer .footer_top .footer_logo_wrapper {
+    justify-content: center;
+  }
+  .loge_text {
+    font-size: 1.5em;
+  }
+}
 @media screen and (max-width: 569px) {
   #twcad1 {
     width: 70px;
@@ -670,11 +685,6 @@ footer .footer_icon_wraper li .icon {
   footer .footer_bottom .footer_link {
     justify-content: center;
     margin-bottom: 0.84em;
-  }
-}
-@media screen and (max-width: 600px) {
-  footer .footer_top .footer_logo_wrapper {
-    justify-content: center;
   }
 }
 @media screen and (max-width: 280px) {

@@ -76,9 +76,6 @@
   padding: 1.4em;
 }
 
-.illustrate_wrap .item_img {
-  height: 100%;
-}
 .illustrate_wrap .item_body {
   margin-bottom: 3em;
   display: flex;
@@ -282,8 +279,10 @@
 }
 .content_body .item_block2 .item_img {
   padding: 1.4em;
-  width: 180px;
+  width: auto;
   display: flex;
+  align-items: flex-start;
+  height: 150px;
 }
 .content_body .item_box2 {
   position: initial;
@@ -927,6 +926,11 @@
     border-left: 17px solid #1383BE;
   }
 }
+@media screen and (max-width: 1074px) {
+  .terraexplorerapp_img {
+    height: 400px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .terraexplorerapp_img {
     height: 250px;
@@ -1055,7 +1059,7 @@
     text-align: center;
   }
   #productsitemlink_view .products_link_wrap .caption_block li .active + .circle::after {
-    left: 10%;
+    left: 30%;
   }
   .block_industries .item_title_box {
     flex-direction: column;
@@ -1067,6 +1071,9 @@
 @media screen and (max-width: 569px) {
   #productsitemlink_view .products_link_wrap {
     margin: 0;
+  }
+  #productsitemlink_view .products_link_wrap .caption_block li .active + .circle::after {
+    left: 10%;
   }
   .products_link_wrap .loge_img_block img {
     width: 40%;

@@ -107,6 +107,8 @@
       letter-spacing:0.2em
     }
   }
+
+
 }
 
 
@@ -230,11 +232,33 @@ footer {
   .loge-1{
     width: 65%;
   }
-
-
 }
 
+@media screen and (max-width:600px){
+  .header nav .dropdown-toggle{
+    margin-right: 0em;
+ } 
+ .control_click {
+    text-align: center;
+ }
+ footer {
+    .footer_top{
+      .footer_logo_wrapper {
+        justify-content: center;
+      }
+    }
+  }
+  .loge_text{
+    font-size: 1.5em;
+  }
+}
+
+
+
+
 @media screen and (max-width:569px){
+  
+
   #twcad1 {
     width: 70px;
   }
@@ -347,15 +371,6 @@ footer {
   }
 }
 
-@media screen and (max-width:600px){
-  footer {
-    .footer_top{
-      .footer_logo_wrapper {
-        justify-content: center;
-      }
-    }
-  }
-}
 
 @media screen and (max-width:280px){
   .header {
