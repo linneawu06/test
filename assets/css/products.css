@@ -1071,7 +1071,7 @@
     margin-left: 0;
   }
   .block_industries .urban_block .item_content {
-    margin-left: 0em;
+    width: 100%;
   }
   .control_click {
     text-align: center;
