@@ -820,7 +820,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .block_industries .public_box .item_title_box {
   position: absolute;
@@ -1012,9 +1012,6 @@
     margin-top: 2em;
     margin-left: 0em;
     width: 80%;
-  }
-  .block_industries .urban_block .item_content {
-    margin-left: 2em;
   }
   .block_industries .public_box {
     margin-top: 0;
