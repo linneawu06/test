@@ -919,7 +919,8 @@
     margin-top: -5em;
     position: relative;
     display: flex;
-    align-items: end;
+    flex-direction: column;
+    justify-content: space-between;
     .item_title_box {
       position: absolute;
       top:20%;

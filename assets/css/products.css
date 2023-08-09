@@ -819,7 +819,8 @@
   margin-top: -5em;
   position: relative;
   display: flex;
-  align-items: end;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .block_industries .public_box .item_title_box {
   position: absolute;
