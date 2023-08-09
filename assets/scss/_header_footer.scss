@@ -257,8 +257,6 @@ footer {
 
 
 @media screen and (max-width:569px){
-  
-
   #twcad1 {
     width: 70px;
   }
@@ -368,6 +366,12 @@ footer {
         margin-bottom: spacecount(3);
       }
     }
+  }
+}
+
+@media screen and (max-width:320px){
+  .loge_text{
+    font-size: 1em;
   }
 }
 

@@ -687,6 +687,11 @@ footer .footer_icon_wraper li .icon {
     margin-bottom: 0.84em;
   }
 }
+@media screen and (max-width: 320px) {
+  .loge_text {
+    font-size: 1em;
+  }
+}
 @media screen and (max-width: 280px) {
   .header {
     padding-right: 2.24em;
