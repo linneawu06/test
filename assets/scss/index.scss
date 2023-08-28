@@ -116,7 +116,7 @@
       width:20%;
       position:absolute;
       right:0%;
-      margin-top:-8.5em;
+      margin-top:-10em;
     }
   }
   .style_wrap {
@@ -154,7 +154,7 @@
     background-color:$second;
     position:absolute;
     left: 0;
-    bottom:-2%;
+    // bottom:-2%;
     @include radius_corner(0,0,70,0);
     box-shadow: $shadow;
     .skyline_slogan_img {
@@ -317,12 +317,17 @@
   }
 }
 
+
+@media screen and (max-width:768px){
+  .skylineinf_container .skyline_top_wrap .skyline_logo {
+    margin-top: -6em;
+  }
+}
+
+
 @media screen and (max-width:736px){
   .skylineinf_container .skyline_under_wrap .skyline_slogan_img {
     width: 30%;
-  }
-  .skylineinf_container .skyline_top_wrap .skyline_logo {
-    margin-top: -6em;
   }
 }
 
@@ -390,6 +395,9 @@
         letter-spacing:0.09em;
       }
     }
+  }
+  .skylineinf_container .skyline_under_wrap{
+    bottom:3%;
   }
 }
 

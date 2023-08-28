@@ -107,7 +107,7 @@
   width: 20%;
   position: absolute;
   right: 0%;
-  margin-top: -8.5em;
+  margin-top: -10em;
 }
 .skylineinf_container .style_wrap .caption_block h2, .skylineinf_container .style_wrap .caption_block p {
   color: #fff;
@@ -136,7 +136,6 @@
   background-color: #0F2C65;
   position: absolute;
   left: 0;
-  bottom: -2%;
   border-radius: 0em 0em 39.2em 0em;
   box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.15);
 }
@@ -241,12 +240,14 @@
     width: 20%;
   }
 }
+@media screen and (max-width: 768px) {
+  .skylineinf_container .skyline_top_wrap .skyline_logo {
+    margin-top: -6em;
+  }
+}
 @media screen and (max-width: 736px) {
   .skylineinf_container .skyline_under_wrap .skyline_slogan_img {
     width: 30%;
-  }
-  .skylineinf_container .skyline_top_wrap .skyline_logo {
-    margin-top: -6em;
   }
 }
 @media screen and (max-width: 694px) {
@@ -298,6 +299,9 @@
   .skylineinf_container .skyline_mid_wrap h2 {
     text-align: center;
     letter-spacing: 0.09em;
+  }
+  .skylineinf_container .skyline_under_wrap {
+    bottom: 3%;
   }
 }
 @media screen and (max-width: 414px) {

@@ -42,7 +42,7 @@
 }
 .protfolio_view .box_container {
   background: url(../imges/protfoliotopfive/protfolio_bgm.png) no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: relative;
   margin-top: -5em;
 }
@@ -86,6 +86,12 @@
 }
 .protfolio_view .content_word {
   display: block;
+}
+.protfolio_view .yms_img {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.protfolio_view .item_img {
+  margin-bottom: 0.05em;
 }
 
 @media screen and (max-width: 1024px) {
