@@ -1,0 +1,194 @@
+@import"_variables";
+
+.protfolio_view{
+    .card_block,.box_block{
+        a{
+            color:$primary;
+            outline: 0;
+        }
+    }
+    .top_caption {
+        position: relative;
+        &::before{
+            position: absolute;
+            @include radius_corner(5,0,5,0);
+            box-shadow: $shadow;
+            content: "";
+            width: 100px;
+            height: 100px;
+            bottom:10%;
+            background-color: $light1;
+        }
+    }
+    .caption_block{
+        height: 200px;
+    }
+    .caption_title{
+        color: $primary;
+    }
+    .content_bottom{
+        p {
+            color: $dark;
+        }
+    }
+    .box_wrap{
+        p{
+            color: $dark;
+        }
+    }
+    .card_container{
+        height: 600px;
+        position:relative;
+        .card_wrap{
+            position: absolute;
+            display: flex;
+            flex-wrap: nowrap;
+            // left: -10%;
+            img{
+                width: 100%;   
+            }
+        }
+    }
+    .box_container{
+        background: url(../imges/protfoliotopfive/protfolio_bgm.png) no-repeat ;
+        background-size: cover;
+        position: relative;
+        margin-top: -5em;
+        .box_content{
+            .contnet_text{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: spacecount(2);
+            }
+        }
+        .box_block:nth-child(3){
+            .box_content{
+                position: relative;
+                &::after{
+                    z-index: -1;
+                    top: -30%;
+                    left: -20%;
+                    content: "";
+                    position: absolute;
+                    width: 500px;
+                    height: 500px;
+                    background-color: $light1;
+                    @include radius(50);
+                }
+            }
+        }
+         .box_block {
+            .link{
+                .contnet_text{
+                    &:hover{
+                        color: $third;
+                    }
+                    &::after{
+                        content: "\21E2";
+                        margin-left: spacecount(1);
+                    }
+                }
+            }  
+        }
+       .decorate_r{
+          position: absolute;
+          top:50%;
+          right: 0;
+          z-index: -1;
+       }
+       .decorate_l{
+        position: absolute;
+        bottom: 20%;
+        left:0%;
+        z-index: -1;
+       }
+    }
+    .content_word{
+        display: block;
+    }
+    .yms_img{
+        box-shadow: $shadow4;
+    }
+    .item_img{
+        margin-bottom: .05em;
+    }
+}
+
+
+@media screen and (max-width:1024px){
+.header_container {
+    padding-top: 5em;
+}
+}
+
+@media screen and (max-width:960px){
+ 
+
+    .protfolio_view{
+        .caption_block{
+            height: 250px;
+        }
+        .card_container{
+            display: block;
+        }
+        .box_container {
+            .decorate_r{
+                top:25%;
+                opacity:0.3;
+            }
+            .decorate_l{
+                bottom:15%;
+                opacity:0.3;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:596px){
+#protfoliotopfive_view{
+        .card_container{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width:596px){
+ #protfoliotopfive_view{
+        .top_caption {
+            &::before{
+                @include radius_corner(2,0,2,0);
+                width: 50px;
+                height: 50px;
+            }
+        }
+        .card_container{
+            display: none;
+        }
+        .box_container {
+            margin-top: 0em;
+            .box_wrap .box_block{
+                @include mgv(8);
+                &:nth-child(odd) a{
+                    display: flex;
+                    flex-direction: column-reverse;
+                }
+                span {
+                    display: flex;
+                    justify-content: center;
+                }
+                .contnet_text{
+                    text-align: center;
+                    margin-bottom: spacecount(3);
+                }
+            }
+        }
+    }
+    .header_container {
+        padding-top: 7em;
+        .changeicon_wrap img {
+            display: none;
+        }
+    }
+}
+
+
