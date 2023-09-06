@@ -24,7 +24,7 @@
                   <p>產品<br/><span class="toggle-en">Products</span></p>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="../view/Products.html" target="_self" rel="noopener noreferrer"><p>Skyline臺灣總代理</p></a></li>
+                  <li><a class="dropdown-item" href="../view/Products.html" target="_self" rel="noopener noreferrer"><p>Skyline產品</p></a></li>
                   <li><a class="dropdown-item" href="../view/FreeTrial.html" target="_self" rel="noopener noreferrer"><p>試用軟體申請</p></a></li>
                   <li><a class="dropdown-item" href="../view/SkylineDownload.html" target="_self" rel="noopener noreferrer"><p>試用軟體下載</p></a></li>
                 </ul>
@@ -63,7 +63,7 @@
             <div class="col-lg-8 col-md-8 col-12 caption_block_g caption_block">
               <div class="col-12">
                 <h2 class="caption_title"><div>Skyline</div>為地理空間創造3D多樣性</h2>
-                <p>將建構地圖點線面,轉換高解析度的3D數位模型,透過可視化的位置服務,構建創新的多元服務體驗。</p>
+                <p>將建構地圖點線面，轉換高解析度的3D數位模型，透過可視化的位置服務，構建創新的多元服務體驗。</p>
               </div>
               <div  class="col-12 d-flex justify-content-end">
                 <a href="FreeTrial.html" target="_blank" rel="noopener noreferrer">
@@ -75,7 +75,7 @@
               </div>
             </div>
             <div class="col-lg-4 col-md-4 col-5 d-flex justify-content-end feature_img_block">
-                <img   class="item_img" src="../assets/imges/about/about1.png" alt="about_img">
+                <img class="item_img" src="../assets/imges/about/about1.png" alt="about_img">
             </div>
           </div>
         </div>
@@ -1154,7 +1154,7 @@
                           </div>
                       </div>
                       <div class="products_introduce2">
-                        <p >
+                        <p style="word-break: break-all;">
                           TerraExplorer Fusion 可以查看由 TerraExplorer Pro發佈的大多數線上圖層和物件，執行測量和分析操作，並根據任何客戶需求客製化網頁應用程序。TerraExplorer Fusion 的外觀樣式和功能可以輕鬆定制，以客製化所需的工具和功能。使用 TerraExplorer Fusion (TEF) 作為基礎，可以利用應用程序框架和功能，從而減少客製化方案所需的編程量。
                         </p>
                       </div>
@@ -1604,7 +1604,7 @@
         </div>
       </div> -->
     </div>
-    <div  class="point"></div>
+    <div class="point"></div>
     <footer id="footer" style="width:100%;">
       <div class="row  footer_top" style="width:100%;margin:0px;">
         <div class="col-lg-6 col-xs-12 col-md-7 col-12 footer_logo_wrapper">
@@ -1638,7 +1638,8 @@
       </div>
     </footer>
     <script type="text/javascript" src="../js/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../js/polyfill/polyfill.min.js"></script>
+    <!-- <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script> -->
     <script type="text/JavaScript" src="../js/jscript.js" ></script>
     <script type="text/JavaScript">
 
@@ -1901,7 +1902,7 @@
       var pointPosition = document.querySelector("#skyline_logo");
       var pointrect = pointPosition.getBoundingClientRect();
 
-      const x = window.pageYOffset + pointrect.top + 20;
+      const x = window.scrollY + pointrect.top ;
 
       pointBlock.addEventListener("click",function(){
         window.scrollTo({ top:x, behavior: 'smooth' });

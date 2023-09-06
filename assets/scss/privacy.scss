@@ -1,0 +1,57 @@
+@import"_variables";
+
+// content
+.caption_block {
+	.caption_title,.content_caption {
+		color: $dark;
+  }
+}
+
+.content_wrap{
+  .content_block {
+    box-shadow:$shadow2;
+    @include radius_corner(0,5,0,5);
+    .line_style {
+      padding-left:spacecount(15);
+      @include border_style(1.5,$third);
+      .content_item{
+        @include pdv(5);
+        .content_title{
+          color:$dark;
+        }
+        p{
+          font-weight: 400;
+          color:$light2;
+        }
+        .content_directions {
+          padding-bottom: spacecount(5);
+        }
+      }
+    }
+  }
+  .conntent_end h3{
+      text-align:center;
+      color:$primary;
+      margin-top:spacecount(10);
+      white-space: nowrap;
+  }
+}
+
+.caption_block {
+  margin-bottom:spacecount(10);
+}
+
+@media screen and (max-width:569px){
+  .content_wrap{
+    .content_block {
+      .line_style {
+        padding-left:spacecount(5);
+      }
+    }
+  }
+  .caption_block {
+    .caption_circle {
+      left: 35%;
+    }
+  }
+}

@@ -76,7 +76,7 @@
 }
 .item_container .item_wrap .item_area .item_block h3 {
   color: #003B80;
-  padding-left: 3.36em;
+  padding-left: 2.66em;
   padding-bottom: 0.84em;
 }
 .item_container .item_wrap .item_area .item_block .item_icon {
@@ -371,7 +371,7 @@
     padding-top: 0;
   }
   .skylineinf_container .skyline_under_wrap {
-    bottom: -2%;
+    bottom: 0%;
   }
   .skylineinf_container .skyline_under_wrap .skyline_slogan_img {
     width: 80%;

@@ -493,7 +493,7 @@ footer .footer_top .footer_logo_wrapper .icon_block {
   align-items: flex-end;
 }
 footer .footer_top .loge {
-  margin-top: -60px;
+  margin-top: -40px;
 }
 footer .footer_top .teca {
   width: 55%;
@@ -709,6 +709,7 @@ main {
 body {
   background-color: #fff;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .header_container {
@@ -719,8 +720,8 @@ body {
 }
 
 .space_v {
-  padding-top: 8.4em;
-  padding-bottom: 8.4em;
+  padding-top: 5.6em;
+  padding-bottom: 5.6em;
 }
 
 .space_s_h {
@@ -729,10 +730,10 @@ body {
 }
 
 a {
-  line-height: 1.5;
-  font-size: 1rem;
-  font-weight: 320;
-  letter-spacing: 0.08em;
+  line-height: 1.705;
+  font-size: 1.1rem;
+  font-weight: 506;
+  letter-spacing: 0.02em;
   text-align: justify;
   font-weight: 900;
 }
@@ -1292,10 +1293,10 @@ span {
 }
 @media screen and (max-width: 768px) {
   p, a {
-    line-height: 1.86;
-    font-size: 1.2rem;
-    font-weight: 552;
-    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 320;
+    letter-spacing: 0.08em;
     text-align: justify;
   }
   h1 {
