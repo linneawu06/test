@@ -59,6 +59,7 @@
 }
 
 .control_container {
+  padding-top: 1em;
   background: url(../imges/products/pages_bgm_left.png) no-repeat 0% 20%;
   background-size: 30%;
   background-position: bottom 20% left;
